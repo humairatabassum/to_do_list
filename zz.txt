@@ -1,0 +1,45 @@
+-> clt + shift + p (for open popup) + (write)flutter new project + applications + select folder + name + enter ..... Done!
+-> then Run & debug side extension -> create json folder -> make flutter mode "release" to "debug"
+-> run file -> start debugging
+.........................................................
+
+1. STL - statelesswidget er shortform
+2. 1st time return e materialapp return korte hoy 
+3. ja new folder hbe sob "lib" e thakbe 
+...................................................
+
+-> return Scaffold return korle it gives a App types look.........
+
+ALL Widgets
+
+1. appbar:Appbar ( creates a bar and it takes title )
+2. Safearea ( safezone create kore like upore halke padding margin er moto blank space rekhe start kore )
+3. Align-> ( it can be use for alignment->Alignment, text , style)
+4. container  ( height , width , color  can be used)
+   container -> decorartion -> and it takes BoxDecoration where we can use color , borderRedius
+
+5. colomn - niche niche bosa elemnts er jnno 
+6. row - pasapapsi bosa elements/ widget er jnno
+7. singlechlidscrollview ( for scrolling if height can't be fixed inside a container)
+8. sizebox - height and width  dea jay , its like a container box
+9. to get screen size write before return -> Size size = Mediaquery.of(context).size  
+   ( screen size er jnno sizebox er hieght and width er place e hbe ,  height = size.height )
+
+10. Expanded - eta prottek container ke ekta same ratio diye de . etate - Flex nam er widget use hy jetate direct ration number likhe dilei hy .
+
+11. spacer() - duita widget er majhe blank space create kore as much as possible
+12. style er vitore TextStyle jay tar vitore font color .....)
+13. card - takes icons
+14. elevation - ( number ne)  for shadow
+15. shape - makes card rounded using roundedRentangular which takes borderRadius
+16. container use -> decorartion and it takes BoxDecoration where we can use color , borderRedius
+17. mainaxisalignment: MainAxisAlignment.spaceEvenly ( makes same equal space rakhe prottek elements er majhe)
+
+18. stack - ekta componant er upore arekta componant bosanor jnno 
+19. ElevateButton - onpressed 
+20. InkWell - ontap - makes a container button type
+21. image er jonno main folder e ekta assets nam er folder khulte hbe then pubspace.yaml e giye asstes likhata ke commentout korte hbe then \assets likhte hbe ( vule gele 2nd video please :3)
+
+22.GestureDetector - for one page to another page routing
+23. RichText (children [Textspan]-  to apply different styles to different parts of the text.
+24
