@@ -385,31 +385,123 @@ class HomeClass extends StatelessWidget {
                       ),
                       Column(
                         mainAxisAlignment: MainAxisAlignment.center,
-                        children:[
-                          ListTile(
-                            title: const Text('Option 1'),
-                            leading: Radio(
-                              value: 'Option 1',
-                              groupValue: wd,
-                              onChanged: (value) {},
+                        children: [
+                          // ListTile(
+                          //   title: const Text('Option 1'),
+                          //   leading: Radio(
+                          //     value: 'Option 1',
+                          //     groupValue: wd,
+                          //     onChanged: (value) {},
+                          //   ),
+                          // ),
+                          // ListTile(
+                          //   title: const Text('Option 2'),
+                          //   leading: Radio(
+                          //     value: 'Option 2',
+                          //     groupValue: wd,
+                          //     onChanged: (value) {},
+                          //   ),
+                          // ),
+                          // ListTile(
+                          //   title: const Text('Option 3'),
+                          //   leading: Radio(
+                          //     value: 'Option 3',
+                          //     groupValue: wd,
+                          //     onChanged: (value) {},
+                          //   ),
+                          // ),
+
+                          Padding(
+                            padding: const EdgeInsets.only(left: 25.0),
+                            child: Row(
+                              children: [
+                                Container(
+                                  width: 20,
+                                  height: 20,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                      color:
+                                          const Color.fromARGB(255, 72, 87, 255),
+                                      width: 2,
+                                    ),
+                                  ),
+                                ),
+                                const Padding(
+                                  padding: EdgeInsets.only(left: 15.0, top: 15.0),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'New Task',
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          fontWeight: FontWeight.bold,
+                                          color:
+                                              Color.fromARGB(218, 255, 255, 255),
+                                        ),
+                                      ),
+                                      Text(
+                                        'Time : 12:00 PM',
+                                        style: TextStyle(
+                                          fontSize: 14,
+                                          fontWeight: FontWeight.bold,
+                                          color:
+                                              Color.fromARGB(218, 255, 255, 255),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              ],
                             ),
                           ),
-                          ListTile(
-                            title: const Text('Option 2'),
-                            leading: Radio(
-                              value: 'Option 2',
-                              groupValue: wd,
-                              onChanged: (value) {},
+                          
+                          Padding(
+                            padding: const EdgeInsets.only(left: 25.0),
+                            child: Row(
+                              children: [
+                                Container(
+                                  width: 20,
+                                  height: 20,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                      color:
+                                          const Color.fromARGB(255, 72, 87, 255),
+                                      width: 2,
+                                    ),
+                                  ),
+                                ),
+                                const Padding(
+                                  padding: EdgeInsets.only(left: 15.0, top: 15.0),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'New Task',
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          fontWeight: FontWeight.bold,
+                                          color:
+                                              Color.fromARGB(218, 255, 255, 255),
+                                        ),
+                                      ),
+                                      Text(
+                                        'Time : 12:00 PM',
+                                        style: TextStyle(
+                                          fontSize: 14,
+                                          fontWeight: FontWeight.bold,
+                                          color:
+                                              Color.fromARGB(218, 255, 255, 255),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              ],
                             ),
-                          ),
-                          ListTile(
-                            title: const Text('Option 3'),
-                            leading: Radio(
-                              value: 'Option 3',
-                              groupValue: wd,
-                              onChanged: (value) {},
-                            ),
-                          ),
+                          )
                         ],
                       ),
                     ],
